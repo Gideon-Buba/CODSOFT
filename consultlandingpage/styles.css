@@ -46,11 +46,8 @@ nav a:hover{
 }
 
 nav li:first-child {
-    margin-left: auto;  
-}
-
-#logo {
-    justify-content: start;
+    margin: 184px;  
+    padding: 200px;
 }
 
 .sidebar {
@@ -137,23 +134,46 @@ nav li:first-child {
 
 .about-us {
     background-color: white;
-    /* margin: 184px; */
 }
 
 .about-text {
-    margin-top: 1083px;
-	margin-left: 184px;
-	width: 703.8px;
-	height: 144.8px;
-	overflow: hidden;
-	font-family: Poppins;
-	font-size: 48px;
-	font-weight: bold;
-	text-align: left;
-	line-height: 65px;
-	color:#181818;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 184px;
+    /* padding: 9.1rem 20.6rem 6.8rem 18.8rem; */
+    /* width: 100%; */
 }
 
+.about-us :first-child {
+    padding-top: 91px;
+    color: #E86A33;
+}
+
+.about-us :nth-child(2) {
+    position: relative;
+    width: 670px;
+    height: 130px;
+    /* margin: 0 auto; */
+    color: #181818;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.about-us :nth-child(3) {
+    position: relative;
+    width: 614px;
+    height: 175px;
+    margin-right: 193px auto;
+    color: #181818;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+}
 
 
 
