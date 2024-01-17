@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    text-align: center;
+    height: 5%;
+    padding-top: 15px;
+    font-size: large;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    color: #f0f0f0;
+    }
+  
+  .calculator {
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .display {
+    background-color: #333;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+  }
+
+  .buttons :nth-child(15) {
+    background-color: #e76933;
+  }
+  
+  button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  
+  
